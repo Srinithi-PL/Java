@@ -1,0 +1,8 @@
+class HashSet{
+public static void main(String[] args){
+String a[]={"java", "c", "python", "java"};
+HashSet <String> Langs=new HashSet();
+System.out.println(langs.add("java"));
+System.out.println(langs.add("c"));
+System.out.println(langs.add("python"));
+System.out.println(langs.add("java"));
