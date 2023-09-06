@@ -1,0 +1,11 @@
+class duplicate{
+public static void main(String[],args){
+HashMap<Integer,Boolean>map=new HashMap();
+for(int i :nums){
+if(map.containsKey(i))
+  return true;
+map.put(i,false);
+}
+return false;
+}
+}
